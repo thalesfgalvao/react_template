@@ -1,17 +1,16 @@
-import { useState } from "react";
 import * as S from "./style";
 
 interface IInputProps {
-  small?: string;
+  id?: string;
+  name?: string;
   placeholder?: string;
+  type?: string;
 }
 
-const Input = ({ small, placeholder }: IInputProps) => {
-  const [isLogged, setIsLogegd] = useState(false);
+const Input = ({ type, id, name, placeholder }: IInputProps) => {
   return (
     <S.InputWrapper>
-      <S.Input placeholder={placeholder} />
-      {isLogged ? <S.Blink>Test</S.Blink> : <S.Small>{small}</S.Small>}
+      <S.Input type={type} id={id} name={name} placeholder={placeholder} />
     </S.InputWrapper>
   );
 };

@@ -1,4 +1,5 @@
 import styled, { css } from "styled-components";
+import { Field } from "formik";
 
 export const InputWrapper = styled.div`
   display: flex;
@@ -14,7 +15,7 @@ export const Small = styled.small`
   `}
 `;
 
-export const Input = styled.input`
+export const Input = styled(Field)`
   border-bottom: 0.1rem solid;
   border-top: 0;
   border-left: 0;
@@ -27,8 +28,4 @@ export const Input = styled.input`
     border-radius: 0.8rem 0;
     font-weight: bold;
   }
-`;
-
-export const Blink = styled.small`
-  opacity: 0;
 `;

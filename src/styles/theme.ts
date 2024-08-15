@@ -5,6 +5,11 @@ export const theme: DefaultTheme = {
     dark: "#0F0F26",
     light: "#FFFFFF",
   },
+  borderRadius: {
+    light: "1rem",
+    madium: "2rem",
+    huge: "3rem",
+  },
   colors: {
     successColor: "#68DB6B",
     warningColor: "#E09B35",

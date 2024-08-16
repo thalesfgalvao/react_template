@@ -1,3 +1,4 @@
+import { Field } from "formik";
 import styled, { css } from "styled-components";
 
 export const Label = styled.label`
@@ -9,4 +10,4 @@ export const Label = styled.label`
   `}
 `;
 
-export const CheckBox = styled.input``;
+export const CheckBox = styled(Field)``;

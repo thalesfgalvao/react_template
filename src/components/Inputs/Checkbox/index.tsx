@@ -4,9 +4,11 @@ import * as S from "./style";
 interface ICheckBoxInput {
   value: string;
   checked?: boolean;
+  id?: string;
+  name?: string;
 }
 
-const CheckBoxInput = ({ value }: ICheckBoxInput) => {
+const CheckBoxInput = ({ value, id, name }: ICheckBoxInput) => {
   const [checked, setChecked] = useState(false);
 
   const handleChange = () => {
@@ -15,7 +17,13 @@ const CheckBoxInput = ({ value }: ICheckBoxInput) => {
   return (
     <>
       <S.Label>
-        <S.CheckBox type="checkbox" checked={checked} onChange={handleChange} />
+        <S.CheckBox
+          type="checkbox"
+          id={id}
+          name={name}
+          checked={checked}
+          onChange={handleChange}
+        />
         {value}
       </S.Label>
     </>

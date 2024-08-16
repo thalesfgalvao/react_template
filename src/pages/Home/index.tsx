@@ -28,9 +28,15 @@ const Home = () => {
             name="password"
             placeholder="*********"
           />
-          <CheckBoxInput value="Lembrar minha senha" />
-          <Button type="submit" kind="success" value="Entrar" />
-          <Button kind="default" value="Criar sua conta" />
+          <CheckBoxInput
+            id="remindPassword"
+            name="remindPassword"
+            value="Lembrar minha senha"
+          />
+          <S.ButtonWrapper>
+            <Button type="submit" kind="success" value="Entrar" />
+            <Button kind="default" value="Criar sua conta" />
+          </S.ButtonWrapper>
         </Form>
       </S.LoginWrapper>
     </S.Wrapper>

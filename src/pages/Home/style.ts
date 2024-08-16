@@ -33,3 +33,9 @@ export const LoginTitle = styled.p`
     text-align: center;
   `}
 `;
+
+export const ButtonWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+`;

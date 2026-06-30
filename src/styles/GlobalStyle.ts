@@ -19,9 +19,9 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 62.5%;
     }
     body {
-      font-family: 'Inter', sans-serif;
-      font-size: 1.6rem;
-      background-color: #F1F1F1;
+      font-family: "Inter", sans-serif;
+      font-size: ${theme.colors.neutral};
+      background-color: ${theme.colors.primary};
     }
     ol,
     li {

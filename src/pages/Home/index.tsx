@@ -1,7 +1,9 @@
 import * as S from "./style";
 
 export const Home = () => {
-  <>
-    <p>Home</p>
-  </>;
+  return (
+    <>
+      <p>Home</p>
+    </>
+  );
 };

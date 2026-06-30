@@ -1,7 +1,9 @@
 import * as S from "./style";
 
 export const NotFound = () => {
-  <>
-    <p>About</p>
-  </>;
+  return (
+    <>
+      <p>NotFound</p>
+    </>
+  );
 };

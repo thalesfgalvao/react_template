@@ -20,8 +20,8 @@ export const GlobalStyle = createGlobalStyle`
     }
     body {
       font-family: "Inter", sans-serif;
-      font-size: ${theme.colors.neutral};
-      background-color: ${theme.colors.primary};
+      font-size: ${theme.sizes.medium};
+      background-color: ${theme.colors.background};
     }
     ol,
     li {

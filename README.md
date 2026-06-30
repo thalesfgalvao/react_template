@@ -38,6 +38,15 @@ src/
 │
 ├── pages/
 ├── routes/
+│   ├── Home
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── About
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── NotFound
+│   │   ├── index.tsx
+│   │   ├── style.ts
 ├── styles/
 │   ├── GlobalStyle.ts
 │   ├── theme.ts
@@ -62,7 +71,7 @@ npm run dev
 
 ```bash
 yarn
-yarn dev
+yarn run dev
 ```
 
 ---

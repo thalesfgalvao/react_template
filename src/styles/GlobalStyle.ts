@@ -19,7 +19,7 @@ export const GlobalStyle = createGlobalStyle`
       font-size: 62.5%;
     }
     body {
-      font-family: 'Arial;
+      font-family: 'Inter', sans-serif;
       font-size: 1.6rem;
       background-color: #F1F1F1;
     }

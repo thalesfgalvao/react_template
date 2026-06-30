@@ -10,6 +10,9 @@ export const lightTheme = {
     warning: "#E09B35",
     error: "#E33F36",
     background: "#E1E3E4",
+    headline: "#191C1D",
+    body: "#454748",
+    label: "#AAABAC",
   },
   borderRadius: {
     light: "1rem",

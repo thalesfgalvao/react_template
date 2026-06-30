@@ -1,7 +1,7 @@
 import * as S from "./style";
 
-export const Home = () => {
+const About = () => {
   <>
-    <p>Home</p>
+    <p>About</p>
   </>;
 };

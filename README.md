@@ -1,32 +1,127 @@
-# React + TypeScript + Vite
+# ⚛️ React Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+<p align="center">
+  Base template for React applications using TypeScript, Styled Components and React Router.
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Styled Components](https://img.shields.io/badge/Styled--Components-DB7093?logo=styledcomponents)
+![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter)
 
-## React Compiler
+</p>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the Oxlint configuration
+## 🇧🇷 Português
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+Template base para projetos React desenvolvido para acelerar a criação de novas aplicações.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### ✨ Recursos
+
+- ✅ TypeScript
+- ✅ Styled Components
+- ✅ Theme Provider
+- ✅ Global Style
+- ✅ React Router
+- ✅ Estrutura organizada
+- ✅ Pronto para expansão
+
+---
+
+### 📂 Estrutura
+
+```text
+src/
+│
+├── pages/
+├── routes/
+├── styles/
+│   ├── GlobalStyle.ts
+│   ├── theme.ts
+│   └── styled.d.ts
+│
+├── App.tsx
+└── index.tsx
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+### 🚀 Instalação
+
+#### npm
+
+```bash
+npm install
+npm run dev
+```
+
+#### yarn
+
+```bash
+yarn
+yarn dev
+```
+
+---
+
+## 🇺🇸 English
+
+Base template for React projects designed to speed up the creation of new applications.
+
+### ✨ Features
+
+- ✅ TypeScript
+- ✅ Styled Components
+- ✅ Theme Provider
+- ✅ Global Style
+- ✅ React Router
+- ✅ Clean folder structure
+- ✅ Ready for scaling
+
+---
+
+### 📂 Structure
+
+```text
+src/
+│
+├── pages/
+├── routes/
+│   ├── Home
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── About
+│   │   ├── index.tsx
+│   │   ├── style.ts
+│   ├── NotFound
+│   │   ├── index.tsx
+│   │   ├── style.ts
+├── styles/
+│   ├── GlobalStyle.ts
+│   ├── theme.ts
+│   └── styled.d.ts
+│
+├── App.tsx
+└── index.tsx
+```
+
+---
+
+### 🚀 Installation
+
+#### npm
+
+```bash
+npm install
+npm run dev
+```
+
+#### yarn
+
+```bash
+yarn
+yarn run dev
+```
